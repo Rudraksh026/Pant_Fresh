@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 09, 2025 at 09:34 AM
+-- Generation Time: Aug 05, 2025 at 04:55 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -42,55 +42,42 @@ CREATE TABLE `item_info` (
 --
 
 INSERT INTO `item_info` (`id`, `name`, `buy_price`, `sell_price`, `provider`, `quantity`, `measure_standard`) VALUES
-(1, 'Honey', 350, 385, '-', 0.25, 'kg'),
-(2, 'Kinnow Squash\r\n', 50, 55, '-', 0.5, 'unit'),
-(3, 'Mango Squash', 100, 110, '-', 1, 'unit'),
-(4, 'Guava Squash', 100, 110, '-', 1, 'unit'),
-(5, 'Orange Squash', 100, 110, '-', 1, 'unit'),
-(6, 'Mixed Squash', 100, 110, '-', 0, 'unit'),
-(7, 'Haldi', 70, 77, '-', 0, 'unit'),
-(8, 'Pickles', 10, 11, '-', 0, 'unit'),
-(9, 'Litchi RTS', 8, 9, '-', 0, 'unit'),
-(10, 'Guava RTS', 15, 17, '-', 0, 'unit'),
-(11, 'Nimbu Pani', 15, 17, '-', 0, 'unit'),
-(12, 'Mixed RTS', 15, 17, '-', 0, 'unit'),
-(13, 'Orange RTS', 15, 17, '-', 0, 'unit'),
-(14, 'Soya Milk', 20, 22, '-', 0, 'unit'),
-(15, 'Kinnow RTS', 20, 22, '-', 0, 'unit'),
-(16, 'Lime RTS', 20, 22, '-', 0, 'unit'),
-(17, 'Gulab Jal', 40, 44, '-', 0, 'unit'),
-(18, 'Paneer', 420, 465, '-', 0, 'kg'),
-(19, 'Peda', 460, 506, '-', 0, 'kg'),
-(20, 'Khoa per', 460, 506, '-', 0, 'kg'),
-(21, 'Chicken pickle', 600, 660, '-', 0, 'kg'),
-(22, 'Chicken samosa', 500, 550, '-', 0, 'kg'),
-(23, 'Chicken patties', 700, 770, '-', 0, 'kg'),
-(24, 'Chicken nuggets', 700, 770, '-', 0, 'kg'),
-(25, 'Chicken sausage', 700, 770, '-', 0, 'kg'),
-(26, 'Chicken tikka', 600, 660, '-', 0, 'kg'),
-(27, 'Crispy Fried Chicken ', 100, 110, '-', 0, 'unit'),
-(28, 'Ice cream-cup ', 120, 132, '-', 0, 'lt'),
-(29, 'Ice cream(brick)', 15, 17, '-', 0, 'unit'),
-(30, 'Open mix milk', 48, 53, '-', 0, 'lt'),
-(31, 'Open milk buff.', 64, 71, '-', 0, 'lt'),
-(32, 'Open cream ', 420, 462, '-', 0, 'lt'),
-(33, 'Open Buff. Ghee', 695, 764, '-', 0, 'kg'),
-(34, 'Cow Ghee (Shankar)', 773, 850, '-', 0, 'kg'),
-(35, 'Sahiwal Cow Ghee', 840, 924, '-', 0, 'kg'),
-(36, 'Fish Cutlet ', 20, 22, '-', 0, 'piece'),
-(37, 'Fish Kure', 30, 33, '-', 0, 'piece'),
-(38, 'Fish Burger ', 100, 110, '-', 0, 'unit'),
-(39, 'Fish Momo', 100, 110, '-', 0, 'unit'),
-(40, 'Milky Mushroom Pickle', 50, 55, '-', 0, 'kg'),
-(41, 'Dry Mushroom ', 1000, 1100, '-', 0, 'kg'),
-(42, 'Kalmegh powder ', 40, 44, '-', 0, 'kg'),
-(43, 'Pot 5in', 80, 88, '-', 0, 'unit'),
-(44, 'Pot 8in', 100, 110, '-', 0, 'unit'),
-(45, 'Grow Bag', 150, 165, '-', 0, 'unit'),
-(46, 'Lotus stem', 150, 165, '-', 0, 'unit'),
-(47, 'Rose - cut flower', 10, 11, '-', 0, 'unit'),
-(48, 'Packaged flower seed', 20, 22, '-', 0, 'unit'),
-(49, 'xyz', 10, 11, '-', 0, 'Unit');
+(1, 'Soy Milk', 20, 25, 'Food Tech', 0, 'Unit'),
+(2, 'Haldi', 70, 80, 'Food Tech', 0, 'Kg'),
+(3, 'Litchi RTS', 8, 10, 'Food Tech', 0, 'Unit'),
+(4, 'Nimbu Pani', 15, 20, 'Food Tech', 0, 'Unit'),
+(5, 'Mixed RTS', 15, 20, 'Food Tech', 0, 'Unit'),
+(6, 'Guava RTS', 15, 20, 'Food Tech', 0, 'Unit'),
+(7, 'Kinnow RTS', 20, 25, 'Food Tech', 0, 'Unit'),
+(8, 'Mango Squash', 100, 120, 'Food Tech', 0, 'Unit'),
+(9, 'Mixed Squash', 100, 120, 'Food Tech', 0, 'Unit'),
+(10, 'Orange Squash', 100, 120, 'Food Tech', 0, 'Unit'),
+(11, 'Guava Squash', 100, 120, 'Food Tech', 0, 'Unit'),
+(12, 'Ice Cream Cup', 120, 140, 'Livestock and Poultry Department', 0, 'ltr'),
+(13, 'Ice Cream Brick', 150, 200, 'Livestock and Poultry Department', 0, 'ltr'),
+(14, 'Paneer', 420, 460, 'Livestock and Poultry Department', 0, 'Kg'),
+(15, 'Open Buff Ghee', 695, 770, 'Livestock and Poultry Department', 0, 'Kg'),
+(16, 'Sahiwal Ghee', 840, 930, 'Livestock and Poultry Department', 0, 'Kg'),
+(17, 'Open Milk Mix', 48, 55, 'Livestock and Poultry Department', 0, 'ltr'),
+(18, 'Peda', 460, 510, 'Livestock and Poultry Department', 0, 'Kg'),
+(19, 'Chicken Nuggets', 700, 780, 'Livestock and Poultry Department', 0, 'Kg'),
+(20, 'Chicken Samosa', 500, 560, 'Livestock and Poultry Department', 0, 'Kg'),
+(21, 'Chicken Patties', 700, 780, 'Livestock and Poultry Department', 0, 'Kg'),
+(22, 'Egg (Brown)', 7, 8, 'Poultry Products', 0, 'Unit'),
+(23, 'Egg B Grade (White)', 4, 5, 'Poultry Products', 0, 'Unit'),
+(24, 'Egg B Grade (Brown)', 6, 7, 'Poultry Products', 0, 'Unit'),
+(25, 'Egg C Grade (White)', 3, 4, 'Poultry Products', 0, 'Unit'),
+(26, 'Egg C Grade (Brown)', 4, 5, 'Poultry Products', 0, 'Unit'),
+(27, 'Quail Egg', 1, 2, 'Poultry Products', 0, 'Unit'),
+(28, 'Fowl Egg', 15, 20, 'Poultry Products', 0, 'Unit'),
+(29, 'Fish Cutlets', 20, 25, 'Fisheries Product', 0, 'Unit'),
+(30, 'Fish Burger', 100, 120, 'Fisheries Product', 0, 'Unit'),
+(31, 'Fish Momo', 100, 120, 'Fisheries Product', 0, 'Unit'),
+(32, 'Ashwagandha', 40, 50, 'Horiculture Products', 0, 'Unit'),
+(33, 'Fenugreek', 400, 450, 'Horiculture Products', 0, 'Kg'),
+(34, 'Tejpatta', 100, 120, 'Horiculture Products', 0, 'Unit'),
+(35, 'Milky Mushroom', 125, 150, 'Mushroom Products', 0, 'Kg'),
+(36, 'Oyester Mushroom', 1000, 1200, 'Mushroom Products', 0, 'Kg');
 
 -- --------------------------------------------------------
 
@@ -154,19 +141,19 @@ ALTER TABLE `sell_id_info`
 -- AUTO_INCREMENT for table `item_info`
 --
 ALTER TABLE `item_info`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 
 --
 -- AUTO_INCREMENT for table `item_sell_table`
 --
 ALTER TABLE `item_sell_table`
-  MODIFY `sno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `sno` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `sell_id_info`
 --
 ALTER TABLE `sell_id_info`
-  MODIFY `sell_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `sell_id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- Constraints for dumped tables
