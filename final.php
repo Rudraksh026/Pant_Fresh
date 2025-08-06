@@ -117,7 +117,7 @@
   </div>
 </section>
 <div class="flex pl-4 mt-4 lg:w-3/3 w-full mx-auto">
-    <form action="CheckOut.php">
+    <form action="index.php">
         <button onclick="" class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Go Home</button>
     </form>
       <button onclick="print_bill()" class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Print Bill</button>

@@ -10,14 +10,12 @@
     </a>
     <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
       <a href="AddInventory.php" class="mr-5 hover:text-gray-900">Add Inventory</a>
-      <a href="Checkout.php" class="mr-5 hover:text-gray-900">Check Out</a>
+      <a href="index.php" class="mr-5 hover:text-gray-900">Check Out</a>
       <a href="Inventory.php" class="mr-5 hover:text-gray-900">Inventory</a>
       <a href="UpdateInventory.php" class="mr-5 hover:text-gray-900">Update Inventory</a>
+      <a href="TotalSells.php" class="mr-5 hover:text-gray-900">Total Sells</a>
     </nav>
-    <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
-      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-        <path d="M5 12h14M12 5l7 7-7 7"></path>
-      </svg>
+    
     </button>
   </div>
 </header>
